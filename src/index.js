@@ -1,3 +1,5 @@
-import { soma } from './soma'
+//yarn webpack serve --mode development
+import React from 'react';
+import { render } from 'react-dom';
 
-console.log(soma(65, 10));
+render(<h1>Ola mundo</h1>, document.getElementById('app'));
